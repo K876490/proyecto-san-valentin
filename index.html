@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>para mi novia ❤️</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Quicksand:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="glass-card">
+            <h1 class="title">¡Hola, amorcito! ❤️</h1>
+            <p class="message">
+                Eres la mejor línea de código en el script de mi vida. 
+                Tengo una pregunta muy importante para ti...
+            </p>
+            
+            <div class="proposal-section">
+                <h2>¿Quieres ser mi San Valentín? 🌹</h2>
+                <div class="btn-group">
+                    <button id="btnYes">¡SÍ! ❤️</button>
+                    <button id="btnNo">No</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="successModal" class="modal hidden">
+        <div class="modal-content">
+            <h2>¡SABÍA QUE DIRÍAS QUE SÍ! 🥰</h2>
+            <p>Prepárate para el mejor 14 de febrero de la historia.</p>
+            <img src="https://media.tenor.com/gUghfpx9t98AAAAC/love-button.gif" alt="Amor" width="250">
+            <br>
+            <button onclick="document.getElementById('successModal').classList.add('hidden')">Cerrar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
