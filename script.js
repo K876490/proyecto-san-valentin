@@ -23,7 +23,6 @@ btnNo.addEventListener('mouseover', () => {
 // Cuando hace clic en "SÍ"
 btnYes.addEventListener('click', () => {
     modal.classList.remove('hidden');
-    
     // Lanzar confeti de corazones
     const duration = 15 * 1000;
     const animationEnd = Date.now() + duration;
