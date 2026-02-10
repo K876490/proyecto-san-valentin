@@ -36,8 +36,8 @@ body {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(255, 255, 255, 0.35);
-    backdrop-filter: blur(10px);
+   
+    backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 20px;
     z-index: 0;
@@ -60,7 +60,7 @@ body {
 
 .message {
     font-size: 1.1rem;
-    color: #4a4a4a;
+    color: #100e0e;
     margin-bottom: 2rem;
 }
 
@@ -111,7 +111,7 @@ button {
 }
 
 .modal-content {
-    background: white;
+    background: rgb(187, 119, 165);
     padding: 2rem;
     border-radius: 20px;
     text-align: center;
@@ -124,7 +124,11 @@ button {
     object-fit: cover;
     border-radius: 15px;
     margin-bottom: 15px;
+      filter: blur(1.6px);           /* nivel de desenfoque */
+    opacity: 0.9;                /* un poquito suave */
 }
+
+
 
 
 .hidden {
